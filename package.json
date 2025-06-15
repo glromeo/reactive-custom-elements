@@ -1,0 +1,28 @@
+{
+  "name": "reactive-custom-elements",
+  "version": "1.0.0",
+  "description": "Create &amp; register custom elements using preact &amp; signals",
+  "main": "index.ts",
+  "dependencies": {
+    "@preact/signals": "^2.2.0",
+    "preact": "^10.26.9"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.5",
+    "plugin-preact-jsx-signals": "^0.1.0",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "watch": "node build.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glromeo/reactive-custom-elements.git"
+  },
+  "author": "Gianluca Romeo (glromeo@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glromeo/reactive-custom-elements/issues"
+  },
+  "homepage": "https://github.com/glromeo/reactive-custom-elements#readme"
+}
